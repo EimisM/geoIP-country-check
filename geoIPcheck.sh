@@ -1,5 +1,5 @@
 #!/bin/bash
-filename='resources/us-ip-list.txt'
+filename='resources/ip-list.txt'
 badlist='output/badlist.txt'
 while read line; do
 # reading each line
