@@ -11,9 +11,9 @@ query=$(php /Users/Eimis/Documents/GitHub/geoIP-country-check/reader.php);
 # check if geoname_id = country code (US by default)
 if [[ "$query" == 'US' ]];
 then
-  echo "The IP location is correct $query"
+  echo "The IP location is correct = $query"
 else
-  echo "The IP location is incorrect $query"
+  echo "The IP location is incorrect = $query"
   echo "$line" >> $badlist
 fi
 
